@@ -1,0 +1,383 @@
+CLASS: Win32_SystemAccount
+Caption|Description|Domain|InstallDate|LocalAccount|Name|SID|SIDType|Status
+SVR-DC01\Everyone|SVR-DC01\Everyone|SVR-DC01|(null)|True|Everyone|S-1-1-0|5|OK
+SVR-DC01\LOCAL|SVR-DC01\LOCAL|SVR-DC01|(null)|True|LOCAL|S-1-2-0|5|OK
+SVR-DC01\CREATOR OWNER|SVR-DC01\CREATOR OWNER|SVR-DC01|(null)|True|CREATOR OWNER|S-1-3-0|5|OK
+SVR-DC01\CREATOR GROUP|SVR-DC01\CREATOR GROUP|SVR-DC01|(null)|True|CREATOR GROUP|S-1-3-1|5|OK
+SVR-DC01\CREATOR OWNER SERVER|SVR-DC01\CREATOR OWNER SERVER|SVR-DC01|(null)|True|CREATOR OWNER SERVER|S-1-3-2|5|OK
+SVR-DC01\CREATOR GROUP SERVER|SVR-DC01\CREATOR GROUP SERVER|SVR-DC01|(null)|True|CREATOR GROUP SERVER|S-1-3-3|5|OK
+SVR-DC01\OWNER RIGHTS|SVR-DC01\OWNER RIGHTS|SVR-DC01|(null)|True|OWNER RIGHTS|S-1-3-4|5|OK
+SVR-DC01\DIALUP|SVR-DC01\DIALUP|SVR-DC01|(null)|True|DIALUP|S-1-5-1|5|OK
+SVR-DC01\NETWORK|SVR-DC01\NETWORK|SVR-DC01|(null)|True|NETWORK|S-1-5-2|5|OK
+SVR-DC01\BATCH|SVR-DC01\BATCH|SVR-DC01|(null)|True|BATCH|S-1-5-3|5|OK
+SVR-DC01\INTERACTIVE|SVR-DC01\INTERACTIVE|SVR-DC01|(null)|True|INTERACTIVE|S-1-5-4|5|OK
+SVR-DC01\SERVICE|SVR-DC01\SERVICE|SVR-DC01|(null)|True|SERVICE|S-1-5-6|5|OK
+SVR-DC01\ANONYMOUS LOGON|SVR-DC01\ANONYMOUS LOGON|SVR-DC01|(null)|True|ANONYMOUS LOGON|S-1-5-7|5|OK
+SVR-DC01\PROXY|SVR-DC01\PROXY|SVR-DC01|(null)|True|PROXY|S-1-5-8|5|OK
+SVR-DC01\SYSTEM|SVR-DC01\SYSTEM|SVR-DC01|(null)|True|SYSTEM|S-1-5-18|5|OK
+SVR-DC01\ENTERPRISE DOMAIN CONTROLLERS|SVR-DC01\ENTERPRISE DOMAIN CONTROLLERS|SVR-DC01|(null)|True|ENTERPRISE DOMAIN CONTROLLERS|S-1-5-9|5|OK
+SVR-DC01\SELF|SVR-DC01\SELF|SVR-DC01|(null)|True|SELF|S-1-5-10|5|OK
+SVR-DC01\Authenticated Users|SVR-DC01\Authenticated Users|SVR-DC01|(null)|True|Authenticated Users|S-1-5-11|5|OK
+SVR-DC01\RESTRICTED|SVR-DC01\RESTRICTED|SVR-DC01|(null)|True|RESTRICTED|S-1-5-12|5|OK
+SVR-DC01\TERMINAL SERVER USER|SVR-DC01\TERMINAL SERVER USER|SVR-DC01|(null)|True|TERMINAL SERVER USER|S-1-5-13|5|OK
+SVR-DC01\REMOTE INTERACTIVE LOGON|SVR-DC01\REMOTE INTERACTIVE LOGON|SVR-DC01|(null)|True|REMOTE INTERACTIVE LOGON|S-1-5-14|5|OK
+SVR-DC01\IUSR|SVR-DC01\IUSR|SVR-DC01|(null)|True|IUSR|S-1-5-17|5|OK
+SVR-DC01\LOCAL SERVICE|SVR-DC01\LOCAL SERVICE|SVR-DC01|(null)|True|LOCAL SERVICE|S-1-5-19|5|OK
+SVR-DC01\NETWORK SERVICE|SVR-DC01\NETWORK SERVICE|SVR-DC01|(null)|True|NETWORK SERVICE|S-1-5-20|5|OK
+SVR-DC01\BUILTIN|SVR-DC01\BUILTIN|SVR-DC01|(null)|True|BUILTIN|S-1-5-32|3|OK
+CLASS: Win32_Group
+Caption|Description|Domain|InstallDate|LocalAccount|Name|SID|SIDType|Status
+SVR-DC01\Administrators|Administrators have complete and unrestricted access to the computer/domain|SVR-DC01|(null)|True|Administrators|S-1-5-32-544|4|OK
+SVR-DC01\Users|Users are prevented from making accidental or intentional system-wide changes and can run most applications|SVR-DC01|(null)|True|Users|S-1-5-32-545|4|OK
+SVR-DC01\Guests|Guests have the same access as members of the Users group by default, except for the Guest account which is further restricted|SVR-DC01|(null)|True|Guests|S-1-5-32-546|4|OK
+SVR-DC01\Print Operators|Members can administer domain printers|SVR-DC01|(null)|True|Print Operators|S-1-5-32-550|4|OK
+SVR-DC01\Backup Operators|Backup Operators can override security restrictions for the sole purpose of backing up or restoring files|SVR-DC01|(null)|True|Backup Operators|S-1-5-32-551|4|OK
+SVR-DC01\Replicator|Supports file replication in a domain|SVR-DC01|(null)|True|Replicator|S-1-5-32-552|4|OK
+SVR-DC01\Remote Desktop Users|Members in this group are granted the right to logon remotely|SVR-DC01|(null)|True|Remote Desktop Users|S-1-5-32-555|4|OK
+SVR-DC01\Network Configuration Operators|Members in this group can have some administrative privileges to manage configuration of networking features|SVR-DC01|(null)|True|Network Configuration Operators|S-1-5-32-556|4|OK
+SVR-DC01\Performance Monitor Users|Members of this group can access performance counter data locally and remotely|SVR-DC01|(null)|True|Performance Monitor Users|S-1-5-32-558|4|OK
+SVR-DC01\Performance Log Users|Members of this group may schedule logging of performance counters, enable trace providers, and collect event traces both locally and via remote access to this computer|SVR-DC01|(null)|True|Performance Log Users|S-1-5-32-559|4|OK
+SVR-DC01\Distributed COM Users|Members are allowed to launch, activate and use Distributed COM objects on this machine.|SVR-DC01|(null)|True|Distributed COM Users|S-1-5-32-562|4|OK
+SVR-DC01\IIS_IUSRS|Built-in group used by Internet Information Services.|SVR-DC01|(null)|True|IIS_IUSRS|S-1-5-32-568|4|OK
+SVR-DC01\Cryptographic Operators|Members are authorized to perform cryptographic operations.|SVR-DC01|(null)|True|Cryptographic Operators|S-1-5-32-569|4|OK
+SVR-DC01\Event Log Readers|Members of this group can read event logs from local machine|SVR-DC01|(null)|True|Event Log Readers|S-1-5-32-573|4|OK
+SVR-DC01\Certificate Service DCOM Access|Members of this group are allowed to connect to Certification Authorities in the enterprise|SVR-DC01|(null)|True|Certificate Service DCOM Access|S-1-5-32-574|4|OK
+SVR-DC01\RDS Remote Access Servers|Servers in this group enable users of RemoteApp programs and personal virtual desktops access to these resources. In Internet-facing deployments, these servers are typically deployed in an edge network. This group needs to be populated on servers running RD Connection Broker. RD Gateway servers and RD Web Access servers used in the deployment need to be in this group.|SVR-DC01|(null)|True|RDS Remote Access Servers|S-1-5-32-575|4|OK
+SVR-DC01\RDS Endpoint Servers|Servers in this group run virtual machines and host sessions where users RemoteApp programs and personal virtual desktops run. This group needs to be populated on servers running RD Connection Broker. RD Session Host servers and RD Virtualization Host servers used in the deployment need to be in this group.|SVR-DC01|(null)|True|RDS Endpoint Servers|S-1-5-32-576|4|OK
+SVR-DC01\RDS Management Servers|Servers in this group can perform routine administrative actions on servers running Remote Desktop Services. This group needs to be populated on all servers in a Remote Desktop Services deployment. The servers running the RDS Central Management service must be included in this group.|SVR-DC01|(null)|True|RDS Management Servers|S-1-5-32-577|4|OK
+SVR-DC01\Hyper-V Administrators|Members of this group have complete and unrestricted access to all features of Hyper-V.|SVR-DC01|(null)|True|Hyper-V Administrators|S-1-5-32-578|4|OK
+SVR-DC01\Access Control Assistance Operators|Members of this group can remotely query authorization attributes and permissions for resources on this computer.|SVR-DC01|(null)|True|Access Control Assistance Operators|S-1-5-32-579|4|OK
+SVR-DC01\Remote Management Users|Members of this group can access WMI resources over management protocols (such as WS-Management via the Windows Remote Management service). This applies only to WMI namespaces that grant access to the user.|SVR-DC01|(null)|True|Remote Management Users|S-1-5-32-580|4|OK
+SVR-DC01\Server Operators|Members can administer domain servers|SVR-DC01|(null)|True|Server Operators|S-1-5-32-549|4|OK
+SVR-DC01\Account Operators|Members can administer domain user and group accounts|SVR-DC01|(null)|True|Account Operators|S-1-5-32-548|4|OK
+SVR-DC01\Pre-Windows 2000 Compatible Access|A backward compatibility group which allows read access on all users and groups in the domain|SVR-DC01|(null)|True|Pre-Windows 2000 Compatible Access|S-1-5-32-554|4|OK
+SVR-DC01\Incoming Forest Trust Builders|Members of this group can create incoming, one-way trusts to this forest|SVR-DC01|(null)|True|Incoming Forest Trust Builders|S-1-5-32-557|4|OK
+SVR-DC01\Windows Authorization Access Group|Members of this group have access to the computed tokenGroupsGlobalAndUniversal attribute on User objects|SVR-DC01|(null)|True|Windows Authorization Access Group|S-1-5-32-560|4|OK
+SVR-DC01\Terminal Server License Servers|Members of this group can update user accounts in Active Directory with information about license issuance, for the purpose of tracking and reporting TS Per User CAL usage|SVR-DC01|(null)|True|Terminal Server License Servers|S-1-5-32-561|4|OK
+SVR-DC01\Cert Publishers|Members of this group are permitted to publish certificates to the directory|SVR-DC01|(null)|True|Cert Publishers|S-1-5-21-372279748-2742624356-4147591550-517|4|OK
+SVR-DC01\RAS and IAS Servers|Servers in this group can access remote access properties of users|SVR-DC01|(null)|True|RAS and IAS Servers|S-1-5-21-372279748-2742624356-4147591550-553|4|OK
+SVR-DC01\Allowed RODC Password Replication Group|Members in this group can have their passwords replicated to all read-only domain controllers in the domain|SVR-DC01|(null)|True|Allowed RODC Password Replication Group|S-1-5-21-372279748-2742624356-4147591550-571|4|OK
+SVR-DC01\Denied RODC Password Replication Group|Members in this group cannot have their passwords replicated to any read-only domain controllers in the domain|SVR-DC01|(null)|True|Denied RODC Password Replication Group|S-1-5-21-372279748-2742624356-4147591550-572|4|OK
+SVR-DC01\DHCP Users|Members who have view-only access to the DHCP service|SVR-DC01|(null)|True|DHCP Users|S-1-5-21-372279748-2742624356-4147591550-1001|4|OK
+SVR-DC01\DHCP Administrators|Members who have administrative access to the DHCP Service|SVR-DC01|(null)|True|DHCP Administrators|S-1-5-21-372279748-2742624356-4147591550-1002|4|OK
+SVR-DC01\DnsAdmins|DNS Administrators Group|SVR-DC01|(null)|True|DnsAdmins|S-1-5-21-372279748-2742624356-4147591550-1104|4|OK
+SANDBOX\Cert Publishers|Members of this group are permitted to publish certificates to the directory|SANDBOX|(null)|False|Cert Publishers|S-1-5-21-372279748-2742624356-4147591550-517|4|OK
+SANDBOX\RAS and IAS Servers|Servers in this group can access remote access properties of users|SANDBOX|(null)|False|RAS and IAS Servers|S-1-5-21-372279748-2742624356-4147591550-553|4|OK
+SANDBOX\Allowed RODC Password Replication Group|Members in this group can have their passwords replicated to all read-only domain controllers in the domain|SANDBOX|(null)|False|Allowed RODC Password Replication Group|S-1-5-21-372279748-2742624356-4147591550-571|4|OK
+SANDBOX\Denied RODC Password Replication Group|Members in this group cannot have their passwords replicated to any read-only domain controllers in the domain|SANDBOX|(null)|False|Denied RODC Password Replication Group|S-1-5-21-372279748-2742624356-4147591550-572|4|OK
+SANDBOX\DHCP Users|Members who have view-only access to the DHCP service|SANDBOX|(null)|False|DHCP Users|S-1-5-21-372279748-2742624356-4147591550-1001|4|OK
+SANDBOX\DHCP Administrators|Members who have administrative access to the DHCP Service|SANDBOX|(null)|False|DHCP Administrators|S-1-5-21-372279748-2742624356-4147591550-1002|4|OK
+SANDBOX\DnsAdmins|DNS Administrators Group|SANDBOX|(null)|False|DnsAdmins|S-1-5-21-372279748-2742624356-4147591550-1104|4|OK
+SANDBOX\$C05000-336018SHCVCJ|This group is used during Exchange setup and is not intended to be used for other purposes.|SANDBOX|(null)|False|$C05000-336018SHCVCJ|S-1-5-21-372279748-2742624356-4147591550-5132|2|OK
+SANDBOX\1-BN||SANDBOX|(null)|False|1-BN|S-1-5-21-372279748-2742624356-4147591550-3280|2|OK
+SANDBOX\Cloneable Domain Controllers|Members of this group that are domain controllers may be cloned.|SANDBOX|(null)|False|Cloneable Domain Controllers|S-1-5-21-372279748-2742624356-4147591550-522|2|OK
+SANDBOX\Compliance Management|This role group will allow a specified user, responsible for compliance, to properly configure and manage compliance settings within Exchange in accordance with their policy.|SANDBOX|(null)|False|Compliance Management|S-1-5-21-372279748-2742624356-4147591550-5120|2|OK
+SANDBOX\Delegated Setup|Members of this management role group have permissions to install and uninstall Exchange on provisioned servers. This role group shouldn't be deleted.|SANDBOX|(null)|False|Delegated Setup|S-1-5-21-372279748-2742624356-4147591550-5118|2|OK
+SANDBOX\Discovery Management|Members of this management role group can perform searches of mailboxes in the Exchange organization for data that meets specific criteria.|SANDBOX|(null)|False|Discovery Management|S-1-5-21-372279748-2742624356-4147591550-5116|2|OK
+SANDBOX\DnsUpdateProxy|DNS clients who are permitted to perform dynamic updates on behalf of some other clients (such as DHCP servers).|SANDBOX|(null)|False|DnsUpdateProxy|S-1-5-21-372279748-2742624356-4147591550-1105|2|OK
+SANDBOX\Domain Admins|Designated administrators of the domain|SANDBOX|(null)|False|Domain Admins|S-1-5-21-372279748-2742624356-4147591550-512|2|OK
+SANDBOX\Domain Computers|All workstations and servers joined to the domain|SANDBOX|(null)|False|Domain Computers|S-1-5-21-372279748-2742624356-4147591550-515|2|OK
+SANDBOX\Domain Controllers|All domain controllers in the domain|SANDBOX|(null)|False|Domain Controllers|S-1-5-21-372279748-2742624356-4147591550-516|2|OK
+SANDBOX\Domain Guests|All domain guests|SANDBOX|(null)|False|Domain Guests|S-1-5-21-372279748-2742624356-4147591550-514|2|OK
+SANDBOX\Domain Users|All domain users|SANDBOX|(null)|False|Domain Users|S-1-5-21-372279748-2742624356-4147591550-513|2|OK
+SANDBOX\Enterprise Admins|Designated administrators of the enterprise|SANDBOX|(null)|False|Enterprise Admins|S-1-5-21-372279748-2742624356-4147591550-519|2|OK
+SANDBOX\Enterprise Read-only Domain Controllers|Members of this group are Read-Only Domain Controllers in the enterprise|SANDBOX|(null)|False|Enterprise Read-only Domain Controllers|S-1-5-21-372279748-2742624356-4147591550-498|2|OK
+SANDBOX\Exchange Servers|This group contains all the Exchange servers. This group shouldn't be deleted.|SANDBOX|(null)|False|Exchange Servers|S-1-5-21-372279748-2742624356-4147591550-5121|2|OK
+SANDBOX\Exchange Trusted Subsystem|This group contains Exchange servers that run Exchange cmdlets on behalf of users via the management service. Its members have permission to read and modify all Exchange configuration, as well as user accounts and groups. This group should not be deleted.|SANDBOX|(null)|False|Exchange Trusted Subsystem|S-1-5-21-372279748-2742624356-4147591550-5122|2|OK
+SANDBOX\Exchange Windows Permissions|This group contains Exchange servers that run Exchange cmdlets on behalf of users via the management service. Its members have permission to read and modify all Windows accounts and groups. This group should not be deleted.|SANDBOX|(null)|False|Exchange Windows Permissions|S-1-5-21-372279748-2742624356-4147591550-5123|2|OK
+SANDBOX\ExchangeLegacyInterop|This group is for interoperability with Exchange 2003 servers within the same forest. This group should not be deleted.|SANDBOX|(null)|False|ExchangeLegacyInterop|S-1-5-21-372279748-2742624356-4147591550-5124|2|OK
+SANDBOX\Group Policy Creator Owners|Members in this group can modify group policy for the domain|SANDBOX|(null)|False|Group Policy Creator Owners|S-1-5-21-372279748-2742624356-4147591550-520|2|OK
+SANDBOX\Help Desk|Members of this management role group can view and manage the configuration for individual recipients and view recipients in an Exchange organization. Members of this role group can only manage the configuration each user can manage on his or her own mailbox. Additional  permissions can be added by assigning additional management roles to this role group.|SANDBOX|(null)|False|Help Desk|S-1-5-21-372279748-2742624356-4147591550-5114|2|OK
+SANDBOX\HHC||SANDBOX|(null)|False|HHC|S-1-5-21-372279748-2742624356-4147591550-3270|2|OK
+SANDBOX\Hygiene Management|Members of this management role group can manage Exchange anti-spam features and grant permissions for antivirus products to integrate with Exchange.|SANDBOX|(null)|False|Hygiene Management|S-1-5-21-372279748-2742624356-4147591550-5119|2|OK
+SANDBOX\Organization Management|Members of this management role group have permissions to manage Exchange objects and their properties in the Exchange organization. Members can also delegate role groups and management roles in the organization. This role group shouldn't be deleted.|SANDBOX|(null)|False|Organization Management|S-1-5-21-372279748-2742624356-4147591550-5109|2|OK
+SANDBOX\Public Folder Management|Members of this management role group can manage public folders. Members can create and delete public folders and manage public folder settings such as replicas, quotas, age limits, and permissions as well as mail-enable and mail-disable public folders.|SANDBOX|(null)|False|Public Folder Management|S-1-5-21-372279748-2742624356-4147591550-5112|2|OK
+SANDBOX\Read-only Domain Controllers|Members of this group are Read-Only Domain Controllers in the domain|SANDBOX|(null)|False|Read-only Domain Controllers|S-1-5-21-372279748-2742624356-4147591550-521|2|OK
+SANDBOX\Recipient Management|Members of this management role group have rights to create, manage, and remove Exchange recipient objects in the Exchange organization.|SANDBOX|(null)|False|Recipient Management|S-1-5-21-372279748-2742624356-4147591550-5110|2|OK
+SANDBOX\Records Management|Members of this management role group can configure compliance features such as retention policy tags, message classifications, transport rules, and more.|SANDBOX|(null)|False|Records Management|S-1-5-21-372279748-2742624356-4147591550-5115|2|OK
+SANDBOX\S1||SANDBOX|(null)|False|S1|S-1-5-21-372279748-2742624356-4147591550-3275|2|OK
+SANDBOX\S2||SANDBOX|(null)|False|S2|S-1-5-21-372279748-2742624356-4147591550-3276|2|OK
+SANDBOX\S3||SANDBOX|(null)|False|S3|S-1-5-21-372279748-2742624356-4147591550-3277|2|OK
+SANDBOX\S4||SANDBOX|(null)|False|S4|S-1-5-21-372279748-2742624356-4147591550-3278|2|OK
+SANDBOX\S6||SANDBOX|(null)|False|S6|S-1-5-21-372279748-2742624356-4147591550-3279|2|OK
+SANDBOX\Schema Admins|Designated administrators of the schema|SANDBOX|(null)|False|Schema Admins|S-1-5-21-372279748-2742624356-4147591550-518|2|OK
+SANDBOX\Server Management|Members of this management role group have permissions to manage all Exchange servers within the Exchange organization, but members don't have permissions to perform operations that have global impact in the Exchange organization.|SANDBOX|(null)|False|Server Management|S-1-5-21-372279748-2742624356-4147591550-5117|2|OK
+SANDBOX\SQL_Group||SANDBOX|(null)|False|SQL_Group|S-1-5-21-372279748-2742624356-4147591550-4274|2|OK
+SANDBOX\UM Management|Members of this management role group can manage Unified Messaging organization, server, and recipient configuration.|SANDBOX|(null)|False|UM Management|S-1-5-21-372279748-2742624356-4147591550-5113|2|OK
+SANDBOX\View-Only Organization Management|Members of this management role group can view recipient and configuration objects and their properties in the Exchange organization.|SANDBOX|(null)|False|View-Only Organization Management|S-1-5-21-372279748-2742624356-4147591550-5111|2|OK
+CLASS: Win32_UserAccount
+AccountType|Caption|Description|Disabled|Domain|FullName|InstallDate|LocalAccount|Lockout|Name|PasswordChangeable|PasswordExpires|PasswordRequired|SID|SIDType|Status
+512|SANDBOX\patton|Built-in account for administering the computer/domain|False|SANDBOX|The General|(null)|False|False|patton|True|False|True|S-1-5-21-372279748-2742624356-4147591550-500|1|OK
+512|SANDBOX\Guest|Built-in account for guest access to the computer/domain|True|SANDBOX||(null)|False|False|Guest|False|False|False|S-1-5-21-372279748-2742624356-4147591550-501|1|Degraded
+512|SANDBOX\krbtgt|Key Distribution Center Service Account|True|SANDBOX||(null)|False|False|krbtgt|True|True|True|S-1-5-21-372279748-2742624356-4147591550-502|1|Degraded
+512|SANDBOX\CES||False|SANDBOX|CES User|(null)|False|False|CES|False|False|True|S-1-5-21-372279748-2742624356-4147591550-1107|1|OK
+512|SANDBOX\wks01.user||False|SANDBOX|WKS01 User|(null)|False|False|wks01.user|True|False|True|S-1-5-21-372279748-2742624356-4147591550-1109|1|OK
+512|SANDBOX\wks02.user||False|SANDBOX|WKS02 User|(null)|False|False|wks02.user|True|False|True|S-1-5-21-372279748-2742624356-4147591550-1110|1|OK
+512|SANDBOX\wks03.user||False|SANDBOX|WKS03 User|(null)|False|False|wks03.user|True|False|True|S-1-5-21-372279748-2742624356-4147591550-1112|1|OK
+512|SANDBOX\wks04.user||False|SANDBOX|WKS04 User|(null)|False|False|wks04.user|True|False|True|S-1-5-21-372279748-2742624356-4147591550-1113|1|OK
+512|SANDBOX\wks05.user||False|SANDBOX|WKS05 User|(null)|False|False|wks05.user|True|False|True|S-1-5-21-372279748-2742624356-4147591550-1114|1|OK
+512|SANDBOX\wks06.user||False|SANDBOX|WKS06 User|(null)|False|False|wks06.user|True|False|True|S-1-5-21-372279748-2742624356-4147591550-1115|1|OK
+512|SANDBOX\wks07.user||False|SANDBOX|WKS07 User|(null)|False|False|wks07.user|True|False|True|S-1-5-21-372279748-2742624356-4147591550-1143|1|OK
+512|SANDBOX\wks08.user||False|SANDBOX|WKS08 User|(null)|False|False|wks08.user|True|False|True|S-1-5-21-372279748-2742624356-4147591550-1144|1|OK
+512|SANDBOX\wks09.user||False|SANDBOX|WKS09 User|(null)|False|False|wks09.user|True|False|True|S-1-5-21-372279748-2742624356-4147591550-1145|1|OK
+512|SANDBOX\wks10.user||False|SANDBOX|WKS10 User|(null)|False|False|wks10.user|True|False|True|S-1-5-21-372279748-2742624356-4147591550-1146|1|OK
+512|SANDBOX\sp_svc||False|SANDBOX|SharePoint Service Account|(null)|False|False|sp_svc|False|False|True|S-1-5-21-372279748-2742624356-4147591550-1155|1|OK
+512|SANDBOX\KAbercrombie|HHC|False|SANDBOX|Kim Abercrombie|(null)|False|False|KAbercrombie|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2548|1|OK
+512|SANDBOX\SAlexander|HHC|False|SANDBOX|Sean Alexander|(null)|False|False|SAlexander|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2549|1|OK
+512|SANDBOX\JBarnhill|HHC|False|SANDBOX|Josh Barnhill|(null)|False|False|JBarnhill|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2550|1|OK
+512|SANDBOX\MBenson|HHC|False|SANDBOX|Max Benson|(null)|False|False|MBenson|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2551|1|OK
+512|SANDBOX\JBischoff|HHC|False|SANDBOX|Jimmy Bischoff|(null)|False|False|JBischoff|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2552|1|OK
+512|SANDBOX\SBourne|HHC|False|SANDBOX|Stephanie Bourne|(null)|False|False|SBourne|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2553|1|OK
+512|SANDBOX\JBrown|HHC|False|SANDBOX|Jo Brown|(null)|False|False|JBrown|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2554|1|OK
+512|SANDBOX\DCampbell|HHC|False|SANDBOX|David Campbell|(null)|False|False|DCampbell|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2555|1|OK
+512|SANDBOX\RCaron|HHC|False|SANDBOX|Rob Caron|(null)|False|False|RCaron|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2556|1|OK
+512|SANDBOX\GChapman|HHC|False|SANDBOX|Greg Chapman|(null)|False|False|GChapman|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2557|1|OK
+512|SANDBOX\JClayton|HHC|False|SANDBOX|Jane Clayton|(null)|False|False|JClayton|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2558|1|OK
+512|SANDBOX\SConroy|HHC|False|SANDBOX|Stephanie Conroy|(null)|False|False|SConroy|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2559|1|OK
+512|SANDBOX\SCulp|HHC|False|SANDBOX|Scott Culp|(null)|False|False|SCulp|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2560|1|OK
+512|SANDBOX\BDiaz|HHC|False|SANDBOX|Brenda Diaz|(null)|False|False|BDiaz|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2561|1|OK
+512|SANDBOX\MEmanuel|HHC|False|SANDBOX|Michael Emanuel|(null)|False|False|MEmanuel|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2562|1|OK
+512|SANDBOX\CFitzgerald|HHC|False|SANDBOX|Charles Fitzgerald|(null)|False|False|CFitzgerald|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2563|1|OK
+512|SANDBOX\GFort|HHC|False|SANDBOX|Garth Fort|(null)|False|False|GFort|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2564|1|OK
+512|SANDBOX\JGanio|HHC|False|SANDBOX|Jon Ganio|(null)|False|False|JGanio|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2565|1|OK
+512|SANDBOX\JGlynn|HHC|False|SANDBOX|James Glynn|(null)|False|False|JGlynn|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2566|1|OK
+512|SANDBOX\DGraham|HHC|False|SANDBOX|Derek Graham|(null)|False|False|DGraham|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2567|1|OK
+512|SANDBOX\DHall|S1|False|SANDBOX|Don Hall|(null)|False|False|DHall|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2568|1|OK
+512|SANDBOX\MHarrington|S1|False|SANDBOX|Mark Harrington|(null)|False|False|MHarrington|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2569|1|OK
+512|SANDBOX\MHassall|S1|False|SANDBOX|Mark Hassall|(null)|False|False|MHassall|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2570|1|OK
+512|SANDBOX\KHensien|S1|False|SANDBOX|Kari Hensien|(null)|False|False|KHensien|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2571|1|OK
+512|SANDBOX\DHodgson|S1|False|SANDBOX|David Hodgson|(null)|False|False|DHodgson|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2572|1|OK
+512|SANDBOX\MHolm|S1|False|SANDBOX|Michael Holm|(null)|False|False|MHolm|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2573|1|OK
+512|SANDBOX\LJacobson|S1|False|SANDBOX|Lisa Jacobson|(null)|False|False|LJacobson|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2574|1|OK
+512|SANDBOX\KJordan|S1|False|SANDBOX|Katie Jordan|(null)|False|False|KJordan|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2575|1|OK
+512|SANDBOX\JKelly|S1|False|SANDBOX|John Kelly|(null)|False|False|JKelly|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2576|1|OK
+512|SANDBOX\KKhanna|S1|False|SANDBOX|Karan Khanna|(null)|False|False|KKhanna|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2577|1|OK
+512|SANDBOX\SKoduri|S1|False|SANDBOX|Sunil Koduri|(null)|False|False|SKoduri|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2578|1|OK
+512|SANDBOX\JLenehan|S1|False|SANDBOX|Jolie Lenehan|(null)|False|False|JLenehan|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2579|1|OK
+512|SANDBOX\JLew|S1|False|SANDBOX|Judy Lew|(null)|False|False|JLew|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2580|1|OK
+512|SANDBOX\RLyon|S1|False|SANDBOX|Robert Lyon|(null)|False|False|RLyon|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2581|1|OK
+512|SANDBOX\SMartinez|S1|False|SANDBOX|Sandra Martinez|(null)|False|False|SMartinez|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2582|1|OK
+512|SANDBOX\KMcAskill-White|S1|False|SANDBOX|Katie McAskill-White|(null)|False|False|KMcAskill-White|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2583|1|OK
+512|SANDBOX\JMiksovsky|S1|False|SANDBOX|Jan Miksovsky|(null)|False|False|JMiksovsky|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2584|1|OK
+512|SANDBOX\BMoore|S1|False|SANDBOX|Bobby Moore|(null)|False|False|BMoore|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2585|1|OK
+512|SANDBOX\SMunson|S1|False|SANDBOX|Stuart Munson|(null)|False|False|SMunson|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2586|1|OK
+512|SANDBOX\LNay|S1|False|SANDBOX|Lorraine Nay|(null)|False|False|LNay|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2587|1|OK
+512|SANDBOX\DOrtiz|S1|False|SANDBOX|David Ortiz|(null)|False|False|DOrtiz|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2588|1|OK
+512|SANDBOX\JPerera|S1|False|SANDBOX|Jonathan Perera|(null)|False|False|JPerera|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2589|1|OK
+512|SANDBOX\JPrice|S1|False|SANDBOX|Jeff Price|(null)|False|False|JPrice|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2590|1|OK
+512|SANDBOX\RReeves|S1|False|SANDBOX|Randy Reeves|(null)|False|False|RReeves|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2591|1|OK
+512|SANDBOX\ERothenberg|S1|False|SANDBOX|Eric Rothenberg|(null)|False|False|ERothenberg|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2592|1|OK
+512|SANDBOX\PSamarawickrama|S1|False|SANDBOX|Prasanna Samarawickrama|(null)|False|False|PSamarawickrama|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2593|1|OK
+512|SANDBOX\SSchulte|S1|False|SANDBOX|Scot Schulte|(null)|False|False|SSchulte|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2594|1|OK
+512|SANDBOX\MSherman|S1|False|SANDBOX|Megan Sherman|(null)|False|False|MSherman|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2595|1|OK
+512|SANDBOX\DSmith|S1|False|SANDBOX|Denise Smith|(null)|False|False|DSmith|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2596|1|OK
+512|SANDBOX\ASteiner|S1|False|SANDBOX|Alan Steiner|(null)|False|False|ASteiner|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2597|1|OK
+512|SANDBOX\BSutton|S1|False|SANDBOX|Brad Sutton|(null)|False|False|BSutton|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2598|1|OK
+512|SANDBOX\DTiedt|S1|False|SANDBOX|Danielle Tiedt|(null)|False|False|DTiedt|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2599|1|OK
+512|SANDBOX\GVargas|S1|False|SANDBOX|Garrett Vargas|(null)|False|False|GVargas|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2600|1|OK
+512|SANDBOX\BWalton|S1|False|SANDBOX|Bryan Walton|(null)|False|False|BWalton|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2601|1|OK
+512|SANDBOX\JWilson|S1|False|SANDBOX|James Wilson|(null)|False|False|JWilson|True|False|True|S-1-5-21-372279748-2742624356-4147591550-2602|1|OK
+512|SANDBOX\BJones|HHC|False|SANDBOX|Bridget Jones|(null)|False|False|BJones|True|True|True|S-1-5-21-372279748-2742624356-4147591550-2612|1|OK
+512|SANDBOX\TYoutsey|S1|False|SANDBOX|Tom Youtsey|(null)|False|False|TYoutsey|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3103|1|OK
+512|SANDBOX\PAckerman|S1|False|SANDBOX|Pilar Ackerman|(null)|False|False|PAckerman|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3104|1|OK
+512|SANDBOX\TAtkinson|S1|False|SANDBOX|Teresa Atkinson|(null)|False|False|TAtkinson|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3105|1|OK
+512|SANDBOX\ABarr|S1|False|SANDBOX|Adam Barr|(null)|False|False|ABarr|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3106|1|OK
+512|SANDBOX\KBerge|S1|False|SANDBOX|Karen Berge|(null)|False|False|KBerge|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3107|1|OK
+512|SANDBOX\SBishop|S1|False|SANDBOX|Scott Bishop|(null)|False|False|SBishop|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3108|1|OK
+512|SANDBOX\DBradley|S2|False|SANDBOX|David Bradley|(null)|False|False|DBradley|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3109|1|OK
+512|SANDBOX\RBrown|S2|False|SANDBOX|Robert Brown|(null)|False|False|RBrown|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3110|1|OK
+512|SANDBOX\CCannon|S2|False|SANDBOX|Chris Cannon|(null)|False|False|CCannon|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3111|1|OK
+512|SANDBOX\ACarothers|S2|False|SANDBOX|Andy Carothers|(null)|False|False|ACarothers|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3112|1|OK
+512|SANDBOX\NCharney|S2|False|SANDBOX|Neil Charney|(null)|False|False|NCharney|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3113|1|OK
+512|SANDBOX\PColeman|S2|False|SANDBOX|Pat Coleman|(null)|False|False|PColeman|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3114|1|OK
+512|SANDBOX\PCook|S2|False|SANDBOX|Patrick Cook|(null)|False|False|PCook|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3115|1|OK
+512|SANDBOX\MDanseglio|S2|False|SANDBOX|Mike Danseglio|(null)|False|False|MDanseglio|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3116|1|OK
+512|SANDBOX\GDickmann|S2|False|SANDBOX|Gabriele Dickmann|(null)|False|False|GDickmann|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3117|1|OK
+512|SANDBOX\GErickson|S2|False|SANDBOX|Gregory Erickson|(null)|False|False|GErickson|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3118|1|OK
+512|SANDBOX\KFlood|S2|False|SANDBOX|Kathie Flood|(null)|False|False|KFlood|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3119|1|OK
+512|SANDBOX\JFredericksen|S2|False|SANDBOX|John Fredericksen|(null)|False|False|JFredericksen|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3120|1|OK
+512|SANDBOX\JGeist|S2|False|SANDBOX|Jim Geist|(null)|False|False|JGeist|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3121|1|OK
+512|SANDBOX\SGode|S2|False|SANDBOX|Scott Gode|(null)|False|False|SGode|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3122|1|OK
+512|SANDBOX\JGrande|S2|False|SANDBOX|Jon Grande|(null)|False|False|JGrande|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3123|1|OK
+512|SANDBOX\DHamilton|S2|False|SANDBOX|David Hamilton|(null)|False|False|DHamilton|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3124|1|OK
+512|SANDBOX\KHarris|S2|False|SANDBOX|Keith Harris|(null)|False|False|KHarris|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3125|1|OK
+512|SANDBOX\CHector|S2|False|SANDBOX|Clair Hector|(null)|False|False|CHector|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3126|1|OK
+512|SANDBOX\AHill|S2|False|SANDBOX|Andrew Hill|(null)|False|False|AHill|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3127|1|OK
+512|SANDBOX\HHoeing|S2|False|SANDBOX|Helge Hoeing|(null)|False|False|HHoeing|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3128|1|OK
+512|SANDBOX\PHouston|S2|False|SANDBOX|Peter Houston|(null)|False|False|PHouston|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3129|1|OK
+512|SANDBOX\DJaffe|S2|False|SANDBOX|David Jaffe|(null)|False|False|DJaffe|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3130|1|OK
+512|SANDBOX\RKelly|S2|False|SANDBOX|Robert Kelly|(null)|False|False|RKelly|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3131|1|OK
+512|SANDBOX\JKim|S2|False|SANDBOX|Jim Kim|(null)|False|False|JKim|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3132|1|OK
+512|SANDBOX\ELang|S2|False|SANDBOX|Eric Lang|(null)|False|False|ELang|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3133|1|OK
+512|SANDBOX\JLos|S2|False|SANDBOX|Jeremy Los|(null)|False|False|JLos|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3134|1|OK
+512|SANDBOX\JLysaker|S2|False|SANDBOX|Jenny Lysaker|(null)|False|False|JLysaker|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3135|1|OK
+512|SANDBOX\SMasters|S2|False|SANDBOX|Steve Masters|(null)|False|False|SMasters|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3136|1|OK
+512|SANDBOX\NMcCormick|S2|False|SANDBOX|Nikki McCormick|(null)|False|False|NMcCormick|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3137|1|OK
+512|SANDBOX\FMiller|S2|False|SANDBOX|Frank Miller|(null)|False|False|FMiller|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3138|1|OK
+512|SANDBOX\JMorris|S2|False|SANDBOX|Jon Morris|(null)|False|False|JMorris|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3139|1|OK
+512|SANDBOX\KMyer|S2|False|SANDBOX|Ken Myer|(null)|False|False|KMyer|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3140|1|OK
+512|SANDBOX\TNixon|S2|False|SANDBOX|Toby Nixon|(null)|False|False|TNixon|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3141|1|OK
+512|SANDBOX\RO'Hara|S2|False|SANDBOX|Robert O'Hara|(null)|False|False|RO'Hara|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3142|1|OK
+512|SANDBOX\JPak|S2|False|SANDBOX|JaeB. Pak|(null)|False|False|JPak|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3143|1|OK
+512|SANDBOX\CPhilips|S-3|False|SANDBOX|Carol Philips|(null)|False|False|CPhilips|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3144|1|OK
+512|SANDBOX\SPurcell|S-3|False|SANDBOX|Sean Purcell|(null)|False|False|SPurcell|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3145|1|OK
+512|SANDBOX\RRounthwaite|S-3|False|SANDBOX|Robert Rounthwaite|(null)|False|False|RRounthwaite|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3146|1|OK
+512|SANDBOX\MSandberg|S-3|False|SANDBOX|Mikael Sandberg|(null)|False|False|MSandberg|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3147|1|OK
+512|SANDBOX\MSeamans|S-3|False|SANDBOX|Mike Seamans|(null)|False|False|MSeamans|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3148|1|OK
+512|SANDBOX\SShridhar|S-3|False|SANDBOX|Shish Shridhar|(null)|False|False|SShridhar|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3149|1|OK
+512|SANDBOX\JSmith|S-3|False|SANDBOX|Jeff Smith|(null)|False|False|JSmith|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3150|1|OK
+512|SANDBOX\DStenerson|S-3|False|SANDBOX|Derik Stenerson|(null)|False|False|DStenerson|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3151|1|OK
+512|SANDBOX\SSzymanski|S-3|False|SANDBOX|Shelly Szymanski|(null)|False|False|SSzymanski|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3152|1|OK
+512|SANDBOX\JTippett|S-3|False|SANDBOX|John Tippett|(null)|False|False|JTippett|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3153|1|OK
+512|SANDBOX\KVerboort|S-3|False|SANDBOX|Kevin Verboort|(null)|False|False|KVerboort|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3154|1|OK
+512|SANDBOX\PWaxman|S-3|False|SANDBOX|Peter Waxman|(null)|False|False|PWaxman|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3155|1|OK
+512|SANDBOX\JWood|S-3|False|SANDBOX|John Wood|(null)|False|False|JWood|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3156|1|OK
+512|SANDBOX\GYukish|S-3|False|SANDBOX|Gary Yukish|(null)|False|False|GYukish|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3157|1|OK
+512|SANDBOX\JAdams|S-3|False|SANDBOX|Jay Adams|(null)|False|False|JAdams|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3158|1|OK
+512|SANDBOX\BBeck|S-3|False|SANDBOX|Bradley Beck|(null)|False|False|BBeck|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3159|1|OK
+512|SANDBOX\ABerglund|S-4|False|SANDBOX|Andreas Berglund|(null)|False|False|ABerglund|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3160|1|OK
+512|SANDBOX\LBonifaz|S-4|False|SANDBOX|Luis Bonifaz|(null)|False|False|LBonifaz|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3161|1|OK
+512|SANDBOX\RBready|S-4|False|SANDBOX|Richard Bready|(null)|False|False|RBready|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3162|1|OK
+512|SANDBOX\KBrowne|S-4|False|SANDBOX|Kevin Browne|(null)|False|False|KBrowne|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3163|1|OK
+512|SANDBOX\RCarey|S-4|False|SANDBOX|Richard Carey|(null)|False|False|RCarey|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3164|1|OK
+512|SANDBOX\BCetinok|S-4|False|SANDBOX|Baris Cetinok|(null)|False|False|BCetinok|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3165|1|OK
+512|SANDBOX\JChen|S-4|False|SANDBOX|John Chen|(null)|False|False|JChen|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3166|1|OK
+512|SANDBOX\ACon|S-4|False|SANDBOX|Aaron Con|(null)|False|False|ACon|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3167|1|OK
+512|SANDBOX\SCooper|S-4|False|SANDBOX|Scott Cooper|(null)|False|False|SCooper|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3168|1|OK
+512|SANDBOX\KDeGrasse|S-4|False|SANDBOX|Kirk DeGrasse|(null)|False|False|KDeGrasse|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3169|1|OK
+512|SANDBOX\ADixon|S-4|False|SANDBOX|Andrew Dixon|(null)|False|False|ADixon|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3170|1|OK
+512|SANDBOX\JEvans|S-4|False|SANDBOX|John Evans|(null)|False|False|JEvans|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3171|1|OK
+512|SANDBOX\JFluegel|S-6|False|SANDBOX|Jay Fluegel|(null)|False|False|JFluegel|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3172|1|OK
+512|SANDBOX\DFunk|S-6|False|SANDBOX|Don Funk|(null)|False|False|DFunk|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3173|1|OK
+512|SANDBOX\TGetzinger|S-6|False|SANDBOX|Tom Getzinger|(null)|False|False|TGetzinger|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3174|1|OK
+512|SANDBOX\JGoldberg|CEO of Stacks of Cash Inc.|False|SANDBOX|Jossef Goldberg|(null)|False|False|JGoldberg|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3175|1|OK
+512|SANDBOX\DGroncki|S-6|False|SANDBOX|Douglas Groncki|(null)|False|False|DGroncki|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3176|1|OK
+512|SANDBOX\JHance|S-6|False|SANDBOX|Jim Hance|(null)|False|False|JHance|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3177|1|OK
+512|SANDBOX\DHartwig|S-6|False|SANDBOX|Doris Hartwig|(null)|False|False|DHartwig|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3178|1|OK
+512|SANDBOX\JHenningsen|S-6|False|SANDBOX|Jay Henningsen|(null)|False|False|JHenningsen|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3179|1|OK
+512|SANDBOX\MHines|S-6|False|SANDBOX|Mike Hines|(null)|False|False|MHines|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3180|1|OK
+512|SANDBOX\BHoffman|S-6|False|SANDBOX|Barbara Hoffman|(null)|False|False|BHoffman|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3181|1|OK
+512|SANDBOX\JHoward|S-6|False|SANDBOX|Joe Howard|(null)|False|False|JHoward|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3182|1|OK
+512|SANDBOX\JJamison|S-6|False|SANDBOX|Jay Jamison|(null)|False|False|JJamison|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3183|1|OK
+512|SANDBOX\BKearney|S-6|False|SANDBOX|Bonnie Kearney|(null)|False|False|BKearney|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3184|1|OK
+512|SANDBOX\KKennedy|S-6|False|SANDBOX|Kevin Kennedy|(null)|False|False|KKennedy|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3185|1|OK
+512|SANDBOX\SKim|S-6|False|SANDBOX|Shane Kim|(null)|False|False|SKim|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3186|1|OK
+512|SANDBOX\FLee|S-6|False|SANDBOX|Frank Lee|(null)|False|False|FLee|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3187|1|OK
+512|SANDBOX\LLeste|S-6|False|SANDBOX|Linda Leste|(null)|False|False|LLeste|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3188|1|OK
+512|SANDBOX\JLugo|S-6|False|SANDBOX|Jose Lugo|(null)|False|False|JLugo|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3189|1|OK
+512|SANDBOX\SMacDonald|S-6|False|SANDBOX|Scott MacDonald|(null)|False|False|SMacDonald|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3190|1|OK
+512|SANDBOX\JMatthews|S-6|False|SANDBOX|Joseph Matthews|(null)|False|False|JMatthews|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3191|1|OK
+512|SANDBOX\SMetters|S-6|False|SANDBOX|Susan Metters|(null)|False|False|SMetters|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3192|1|OK
+512|SANDBOX\LMitchell|S-6|False|SANDBOX|Linda Mitchell|(null)|False|False|LMitchell|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3193|1|OK
+512|SANDBOX\JMoseley|S-6|False|SANDBOX|Julia Moseley|(null)|False|False|JMoseley|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3194|1|OK
+512|SANDBOX\SNagata|S-6|False|SANDBOX|Suanne Nagata|(null)|False|False|SNagata|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3195|1|OK
+512|SANDBOX\LNorman|S-6|False|SANDBOX|Laura Norman|(null)|False|False|LNorman|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3196|1|OK
+512|SANDBOX\FOgisu|S-6|False|SANDBOX|Fukiko Ogisu|(null)|False|False|FOgisu|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3197|1|OK
+512|SANDBOX\MPatten|S-6|False|SANDBOX|Michael Patten|(null)|False|False|MPatten|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3198|1|OK
+512|SANDBOX\CPoland|S-6|False|SANDBOX|Carole Poland|(null)|False|False|CPoland|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3199|1|OK
+512|SANDBOX\KRalls|S-6|False|SANDBOX|Kim Ralls|(null)|False|False|KRalls|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3200|1|OK
+512|SANDBOX\DRichards|S-6|False|SANDBOX|Dave Richards|(null)|False|False|DRichards|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3201|1|OK
+512|SANDBOX\LSacksteder|S-6|False|SANDBOX|Lane Sacksteder|(null)|False|False|LSacksteder|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3202|1|OK
+512|SANDBOX\GSchare|S-6|False|SANDBOX|Gary Schare|(null)|False|False|GSchare|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3203|1|OK
+512|SANDBOX\BSeidl|S-6|False|SANDBOX|Birgit Seidl|(null)|False|False|BSeidl|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3204|1|OK
+512|SANDBOX\BSimon|S-6|False|SANDBOX|Britta Simon|(null)|False|False|BSimon|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3205|1|OK
+512|SANDBOX\SSmith|S-6|False|SANDBOX|Samantha Smith|(null)|False|False|SSmith|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3206|1|OK
+512|SANDBOX\JStewart|S-6|False|SANDBOX|Jim Stewart|(null)|False|False|JStewart|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3207|1|OK
+512|SANDBOX\MTiano|S-6|False|SANDBOX|Mike Tiano|(null)|False|False|MTiano|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3208|1|OK
+512|SANDBOX\LTsoflias|S-6|False|SANDBOX|Lynn Tsoflias|(null)|False|False|LTsoflias|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3209|1|OK
+512|SANDBOX\WVong|S-6|False|SANDBOX|William Vong|(null)|False|False|WVong|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3210|1|OK
+512|SANDBOX\PWest|S-6|True|SANDBOX|Paul West|(null)|False|False|PWest|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3211|1|Degraded
+512|SANDBOX\GYoung|S-6|False|SANDBOX|Garrett Young|(null)|False|False|GYoung|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3212|1|OK
+512|SANDBOX\KZimprich|S-6|False|SANDBOX|Karin Zimprich|(null)|False|False|KZimprich|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3213|1|OK
+512|SANDBOX\KAkers|S-6|False|SANDBOX|Kim Akers|(null)|False|False|KAkers|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3214|1|OK
+512|SANDBOX\ABarbariol|S-6|False|SANDBOX|Angela Barbariol|(null)|False|False|ABarbariol|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3215|1|OK
+512|SANDBOX\IBen-Sachar|S-6|False|SANDBOX|Ido Ben-Sachar|(null)|False|False|IBen-Sachar|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3216|1|OK
+512|SANDBOX\JBerry|1BN|False|SANDBOX|Jo Berry|(null)|False|False|JBerry|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3217|1|OK
+512|SANDBOX\RBoseman|1BN|False|SANDBOX|Randall Boseman|(null)|False|False|RBoseman|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3218|1|OK
+512|SANDBOX\TBremer|1BN|False|SANDBOX|Ted Bremer|(null)|False|False|TBremer|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3219|1|OK
+512|SANDBOX\NBuchanan|1BN|False|SANDBOX|Nancy Buchanan|(null)|False|False|NBuchanan|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3220|1|OK
+512|SANDBOX\TCarlson|1BN|False|SANDBOX|TyLoren Carlson|(null)|False|False|TCarlson|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3221|1|OK
+512|SANDBOX\SChai|1BN|False|SANDBOX|Sean Chai|(null)|False|False|SChai|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3222|1|OK
+512|SANDBOX\AChor|1BN|False|SANDBOX|Anthony Chor|(null)|False|False|AChor|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3223|1|OK
+512|SANDBOX\PConnelly|1BN|False|SANDBOX|Peter Connelly|(null)|False|False|PConnelly|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3224|1|OK
+512|SANDBOX\ECorets|1BN|False|SANDBOX|Eva Corets|(null)|False|False|ECorets|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3225|1|OK
+512|SANDBOX\ADelaney|1BN|False|SANDBOX|Aidan Delaney|(null)|False|False|ADelaney|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3226|1|OK
+512|SANDBOX\PDoyle|1BN|False|SANDBOX|Patricia Doyle|(null)|False|False|PDoyle|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3227|1|OK
+512|SANDBOX\MFaeber|1BN|False|SANDBOX|Marc Faeber|(null)|False|False|MFaeber|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3228|1|OK
+512|SANDBOX\KFocht|1BN|False|SANDBOX|Kelly Focht|(null)|False|False|KFocht|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3229|1|OK
+512|SANDBOX\MGalos|1BN|False|SANDBOX|Michael Galos|(null)|False|False|MGalos|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3230|1|OK
+512|SANDBOX\GGilbert|1BN|False|SANDBOX|Guy Gilbert|(null)|False|False|GGilbert|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3231|1|OK
+512|SANDBOX\MGraff|1BN|False|SANDBOX|Michael Graff|(null)|False|False|MGraff|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3232|1|OK
+512|SANDBOX\BGroth|1BN|False|SANDBOX|Brian Groth|(null)|False|False|BGroth|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3233|1|OK
+512|SANDBOX\MHanson|1BN|False|SANDBOX|Mark Hanson|(null)|False|False|MHanson|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3234|1|OK
+512|SANDBOX\RHarui|1BN|False|SANDBOX|Roger Harui|(null)|False|False|RHarui|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3235|1|OK
+512|SANDBOX\JHenshaw|1BN|False|SANDBOX|Jeff Henshaw|(null)|False|False|JHenshaw|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3236|1|OK
+512|SANDBOX\RHirsch|1BN|False|SANDBOX|RisΘ Hirsch|(null)|False|False|RHirsch|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3237|1|OK
+512|SANDBOX\BHohman|1BN|False|SANDBOX|Bob Hohman|(null)|False|False|BHohman|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3238|1|OK
+512|SANDBOX\AHuff|1BN|False|SANDBOX|Arlene Huff|(null)|False|False|AHuff|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3239|1|OK
+512|SANDBOX\DJohnson|1BN|False|SANDBOX|David Johnson|(null)|False|False|DJohnson|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3240|1|OK
+512|SANDBOX\KKeil|1BN|False|SANDBOX|Kendall Keil|(null)|False|False|KKeil|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3241|1|OK
+512|SANDBOX\EKeyser|1BN|False|SANDBOX|Elizabeth Keyser|(null)|False|False|EKeyser|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3242|1|OK
+512|SANDBOX\RKoch|1BN|False|SANDBOX|Reed Koch|(null)|False|False|RKoch|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3243|1|OK
+512|SANDBOX\MLee|1BN|False|SANDBOX|Mark Lee|(null)|False|False|MLee|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3244|1|OK
+512|SANDBOX\SLevy|1BN|False|SANDBOX|Steven Levy|(null)|False|False|SLevy|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3245|1|OK
+512|SANDBOX\RLum|1BN|False|SANDBOX|Richard Lum|(null)|False|False|RLum|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3246|1|OK
+512|SANDBOX\MMartin|1BN|False|SANDBOX|Mindy Martin|(null)|False|False|MMartin|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3247|1|OK
+512|SANDBOX\TMaxwell|1BN|False|SANDBOX|Taylor Maxwell|(null)|False|False|TMaxwell|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3248|1|OK
+512|SANDBOX\DMeyer|1BN|False|SANDBOX|Deanna Meyer|(null)|False|False|DMeyer|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3249|1|OK
+512|SANDBOX\JMollerup|1BN|False|SANDBOX|Jonathan Mollerup|(null)|False|False|JMollerup|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3250|1|OK
+512|SANDBOX\SMughal|1BN|False|SANDBOX|Salman Mughal|(null)|False|False|SMughal|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3251|1|OK
+512|SANDBOX\MNash|1BN|False|SANDBOX|Mike Nash|(null)|False|False|MNash|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3252|1|OK
+512|SANDBOX\FNorthup|1BN|False|SANDBOX|Fred Northup|(null)|False|False|FNorthup|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3253|1|OK
+512|SANDBOX\TOrman|1BN|False|SANDBOX|Tad Orman|(null)|False|False|TOrman|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3254|1|OK
+512|SANDBOX\JPeoples|1BN|False|SANDBOX|John Peoples|(null)|False|False|JPeoples|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3255|1|OK
+512|SANDBOX\CPreston|1BN|False|SANDBOX|Chris Preston|(null)|False|False|CPreston|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3256|1|OK
+512|SANDBOX\CRandall|1BN|False|SANDBOX|Cynthia Randall|(null)|False|False|CRandall|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3257|1|OK
+512|SANDBOX\JRodman|1BN|False|SANDBOX|John Rodman|(null)|False|False|JRodman|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3258|1|OK
+512|SANDBOX\RSam|1BN|False|SANDBOX|Raymond Sam|(null)|False|False|RSam|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3259|1|OK
+512|SANDBOX\YSchleger|1BN|False|SANDBOX|Yvonne Schleger|(null)|False|False|YSchleger|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3260|1|OK
+512|SANDBOX\AShen|1BN|False|SANDBOX|Alan Shen|(null)|False|False|AShen|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3261|1|OK
+512|SANDBOX\DSimpson|1BN|False|SANDBOX|David Simpson|(null)|False|False|DSimpson|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3262|1|OK
+512|SANDBOX\PSpencer|1BN|False|SANDBOX|Phil Spencer|(null)|False|False|PSpencer|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3263|1|OK
+512|SANDBOX\NSun|1BN|False|SANDBOX|Nate Sun|(null)|False|False|NSun|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3264|1|OK
+512|SANDBOX\DTibbott|1BN|False|SANDBOX|Diane Tibbott|(null)|False|False|DTibbott|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3265|1|OK
+512|SANDBOX\FVoss|1BN|False|SANDBOX|Florian Voss|(null)|False|False|FVoss|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3266|1|OK
+512|SANDBOX\WWheeler|1BN|False|SANDBOX|Wendy Wheeler|(null)|False|False|WWheeler|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3267|1|OK
+512|SANDBOX\RYoung|1BN|False|SANDBOX|Rob Young|(null)|False|False|RYoung|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3268|1|OK
+512|SANDBOX\WKS11.user||False|SANDBOX|WKS11 user|(null)|False|False|WKS11.user|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3274|1|OK
+512|SANDBOX\admin||False|SANDBOX|admin|(null)|False|False|admin|True|False|True|S-1-5-21-372279748-2742624356-4147591550-3291|1|OK
+512|SANDBOX\salvador.navarrette||False|SANDBOX|Salvador Navarrette|(null)|False|False|salvador.navarrette|True|True|True|S-1-5-21-372279748-2742624356-4147591550-3293|1|OK
+512|SANDBOX\brandon.larson||False|SANDBOX|Brandon Larson|(null)|False|False|brandon.larson|True|True|True|S-1-5-21-372279748-2742624356-4147591550-3294|1|OK
+512|SANDBOX\najimah.lewis||False|SANDBOX|Najimah Lewis|(null)|False|False|najimah.lewis|True|True|True|S-1-5-21-372279748-2742624356-4147591550-3295|1|OK
+512|SANDBOX\raymond.edwards||False|SANDBOX|Raymond Edwards|(null)|False|False|raymond.edwards|True|True|True|S-1-5-21-372279748-2742624356-4147591550-3296|1|OK
+512|SANDBOX\thomas.czarkowski||False|SANDBOX|Thomas Czarkowski|(null)|False|False|thomas.czarkowski|True|True|True|S-1-5-21-372279748-2742624356-4147591550-3297|1|OK
+512|SANDBOX\steven.feigh||False|SANDBOX|Steven Feigh|(null)|False|False|steven.feigh|True|True|True|S-1-5-21-372279748-2742624356-4147591550-3298|1|OK
+512|SANDBOX\newtina.mitchell||False|SANDBOX|Newtina Mitchell|(null)|False|False|newtina.mitchell|True|True|True|S-1-5-21-372279748-2742624356-4147591550-3299|1|OK
+512|SANDBOX\charles.burge||False|SANDBOX|Charles Burge|(null)|False|False|charles.burge|True|True|True|S-1-5-21-372279748-2742624356-4147591550-3300|1|OK
+512|SANDBOX\lazira.perrilloux||False|SANDBOX|Lazira Perrilloux|(null)|False|False|lazira.perrilloux|True|True|True|S-1-5-21-372279748-2742624356-4147591550-3301|1|OK
+512|SANDBOX\yasitu.richardson||False|SANDBOX|Yasitu Richardson|(null)|False|False|yasitu.richardson|True|True|True|S-1-5-21-372279748-2742624356-4147591550-3302|1|OK
+512|SANDBOX\401cpt|Test user account for 401 CPT|False|SANDBOX|401 cpt|(null)|False|False|401cpt|True|False|True|S-1-5-21-372279748-2742624356-4147591550-4104|1|OK
+512|SANDBOX\garay||False|SANDBOX|garay|(null)|False|False|garay|True|False|True|S-1-5-21-372279748-2742624356-4147591550-4107|1|OK
+512|SANDBOX\rocky||False|SANDBOX|Rocky Balboa|(null)|False|False|rocky|True|False|True|S-1-5-21-372279748-2742624356-4147591550-5104|1|OK
+512|SANDBOX\carlos.gallego||False|SANDBOX|carlos gallego|(null)|False|False|carlos.gallego|True|True|True|S-1-5-21-372279748-2742624356-4147591550-5106|1|OK
+512|SANDBOX\$505000-NPRIDE6N952P||True|SANDBOX||(null)|False|False|$505000-NPRIDE6N952P|True|True|False|S-1-5-21-372279748-2742624356-4147591550-5125|1|Degraded
+512|SANDBOX\SM_e3f1d2eec0484ae4b||True|SANDBOX|Microsoft Exchange Approval Assistant|(null)|False|False|SM_e3f1d2eec0484ae4b|True|True|True|S-1-5-21-372279748-2742624356-4147591550-5126|1|Degraded
+512|SANDBOX\SM_72b1579d56094340a||True|SANDBOX|Microsoft Exchange|(null)|False|False|SM_72b1579d56094340a|True|True|True|S-1-5-21-372279748-2742624356-4147591550-5127|1|Degraded
+512|SANDBOX\SM_7538a850bc504fc89||True|SANDBOX|Microsoft Exchange|(null)|False|False|SM_7538a850bc504fc89|True|True|True|S-1-5-21-372279748-2742624356-4147591550-5128|1|Degraded
+512|SANDBOX\SM_5a8989c3123843e29||True|SANDBOX|Discovery Search Mailbox|(null)|False|False|SM_5a8989c3123843e29|True|True|True|S-1-5-21-372279748-2742624356-4147591550-5129|1|Degraded
+512|SANDBOX\SM_bb007b60ae39475ab||True|SANDBOX|Microsoft Exchange Migration|(null)|False|False|SM_bb007b60ae39475ab|True|True|True|S-1-5-21-372279748-2742624356-4147591550-5130|1|Degraded
+512|SANDBOX\SM_ef3195b90811453e8||True|SANDBOX|Microsoft Exchange Federation Mailbox|(null)|False|False|SM_ef3195b90811453e8|True|True|True|S-1-5-21-372279748-2742624356-4147591550-5131|1|Degraded
+512|SANDBOX\SM_9ed69d14c34c44e2b||False|SANDBOX|HealthMailbox61d4d45424114a2c925f7bbf71c76013|(null)|False|False|SM_9ed69d14c34c44e2b|True|False|False|S-1-5-21-372279748-2742624356-4147591550-5133|1|OK
+512|SANDBOX\SM_3fdc8b1c21884284a||False|SANDBOX|HealthMailboxa16d2eb2890a463fac6da7612caeaa1f|(null)|False|False|SM_3fdc8b1c21884284a|True|False|False|S-1-5-21-372279748-2742624356-4147591550-5134|1|OK
+512|SANDBOX\SM_3a17ae6bce2247899||False|SANDBOX|HealthMailbox1c97350fe84c473c9befe289c90b087e|(null)|False|False|SM_3a17ae6bce2247899|True|False|False|S-1-5-21-372279748-2742624356-4147591550-5135|1|OK
+512|SANDBOX\sql_install||False|SANDBOX|SQL_Install|(null)|False|False|sql_install|False|True|True|S-1-5-21-372279748-2742624356-4147591550-5137|1|OK
+512|SANDBOX\sql_user||False|SANDBOX|SQL_user|(null)|False|False|sql_user|False|True|True|S-1-5-21-372279748-2742624356-4147591550-5138|1|OK
+512|SANDBOX\sp_farm|Sharepoint Farm Service Account|False|SANDBOX|Sharepoint Farm Service Account|(null)|False|False|sp_farm|False|False|True|S-1-5-21-372279748-2742624356-4147591550-5139|1|OK
+512|SANDBOX\sp_admin|Sharepoint Administration|False|SANDBOX|SP_Admin|(null)|False|False|sp_admin|False|False|True|S-1-5-21-372279748-2742624356-4147591550-5141|1|OK
+512|SANDBOX\christopher.clayton||False|SANDBOX|christopher clayton|(null)|False|False|christopher.clayton|True|True|True|S-1-5-21-372279748-2742624356-4147591550-5142|1|OK
+512|SANDBOX\hbss_admin||False|SANDBOX|HBSS_Admin|(null)|False|False|hbss_admin|True|False|True|S-1-5-21-372279748-2742624356-4147591550-5143|1|OK
+512|SANDBOX\thatguy2||False|SANDBOX|That Guy|(null)|False|False|thatguy2|False|True|True|S-1-5-21-372279748-2742624356-4147591550-5147|1|OK
+512|SANDBOX\hbss||False|SANDBOX|HBSS|(null)|False|False|hbss|False|False|True|S-1-5-21-372279748-2742624356-4147591550-5148|1|OK
+512|SANDBOX\bluescope||False|SANDBOX|BLUESCOPE|(null)|False|False|bluescope|False|False|True|S-1-5-21-372279748-2742624356-4147591550-5149|1|OK
+512|SANDBOX\cpt153||False|SANDBOX|CPT153_Admin|(null)|False|False|cpt153|True|False|True|S-1-5-21-372279748-2742624356-4147591550-5150|1|OK
+512|SANDBOX\cpt91||False|SANDBOX|cpt 91|(null)|False|False|cpt91|True|True|True|S-1-5-21-372279748-2742624356-4147591550-5154|1|OK
